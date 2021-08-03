@@ -1,7 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import A from "../../images/margarita.jpeg";
 import B from "../../images/tortaFrutas.jpg";
-import C from "../../images/lasagna.jpg";
+import C from "../../images/PlatanoCarne.jpg";
 
 
 const FoodCarousel = () => {

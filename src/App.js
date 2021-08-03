@@ -1,6 +1,7 @@
 import FoodCarousel from "./components/foodCarousel/FoodCarousel";
 import FoodNavbar from "./components/foodNavbar/FoodNavbar";
 import FoodCards from "./components/foodCards/FoodCards";
+import FoodFooter from "./components/foodFooter/FoodFooter";
 
 const App = () => {
   return (
@@ -8,6 +9,8 @@ const App = () => {
       <FoodNavbar />
       <FoodCarousel />
       <FoodCards />
+      <FoodFooter />
+
 
     </>
   );
