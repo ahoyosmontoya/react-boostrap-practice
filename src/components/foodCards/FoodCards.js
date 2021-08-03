@@ -1,5 +1,8 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import img1 from "../../images/lasagna.jpg";
+
+
 
 
 const FoodCards = () => {
@@ -7,7 +10,7 @@ const FoodCards = () => {
     <>
            {/* 1rem = 16px. ¿Que queremos que un título tenga un tamaño de 24px? Pues le aplicamos font-size: 1.5rem;. */}
       <Card style={{ width: "18rem" }}>
-        <Card Img variant="top" scr="holder.js/100px180" />
+        <Card.Img variant="top" src={img1} />
         <Card.Body>
           <Card.Title>Cocina a su medida</Card.Title>
           <Card.Text>
